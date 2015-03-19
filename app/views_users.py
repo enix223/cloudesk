@@ -4,6 +4,7 @@ from django.core.urlresolvers import reverse
 from django.shortcuts import render, redirect
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 
 def sigin(request):
 	# No need to login
@@ -13,7 +14,7 @@ def sigin(request):
 	if(request.method == 'GET'):		
 		return render(request, 'login.html')
 	else:
-		username = request.POST['username']
+                username = request.POST['username']
 		password = request.POST['password']
 		user = authenticate(username=username, password=password)
 		if user is not None and user.is_active:
@@ -27,11 +28,9 @@ def sigout(request):
     logout(request)
     return redirect('login')
 
-def index(request):
-    if(request.user.is_authenticated()):
-        return render(request, 'console.html')
-    else:
-        return redirect('login')
+@login_required
+def index(request):	
+	return render(request, 'console.html')
 
 
         
