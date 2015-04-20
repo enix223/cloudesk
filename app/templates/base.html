@@ -1,0 +1,70 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta name="description" content="" />
+	<meta name="author" content="enix223@163.com" />
+	<title>Cloudesk | Working Desk on cloud.</title>
+	<!-- Bootstrap CSS -->
+	<link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" />
+	<!-- Cloudesk CSS -->
+	<link href="{% static 'css/cloudesk.css' %}" rel="stylesheet" />
+    <link href="{% static 'css/theme-primary.css' %}" rel="stylesheet" />
+
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+	<script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+
+<div class="container">
+    <!-- Nav bar -->
+    <nav class="navbar navbar-primary">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Cloudesk</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <!-- Tool bar on left -->
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">DB Tools <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li>
+                    <a href="{% url 'db-config' %}"><i class="glyphicon glyphicon-cog"></i>&nbsp; Configuration</a>
+                </li>
+                <li class="divider"></li>
+                <li><a href="{% url 'db-exporter' %}"><i class="glyphicon glyphicon-save"></i>&nbsp; Exporter</a></li>
+                <li><a href="{% url 'db-parser' %}"><i class="glyphicon glyphicon-retweet"></i>&nbsp; SQL Parser</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Explorer</a></li>
+            <li><a href="#">Calendar</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+
+    {% block content %} {% endblock %}
+
+    <footer class="footer">
+        <p>@EnixYu 2015</p>
+    </footer>
+
+</div>
+
+</body>
+</html>

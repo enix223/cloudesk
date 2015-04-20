@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="row">
+        <div class="col-sm-9">
+            <div class="panel panel-primary">
+                <div class="panel-heading">DB Connection Config</div>
+                <div class="panel-body">
+                    {% if msg %}<div class="alert alert-danger">{{ msg }}</div>{% endif %}
+                    <form class="form-horizontal" method="post" action="{% if form.id %}{% url 'db-config-edit' form.id %}{% else %}{% url 'db-config-add' %}{% endif %}">
+                        {% csrf_token %}
+                        <input type="hidden" name="owner" value="{{ user.id }}">
+                        <input type="hidden" name="id" value="{{ form.id }}">
+                        <div class="form-group">
+                            <label for="db-name" class="col-sm-3 control-label">Connection Identifier</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="db-name" name="name" placeholder="Connection Identifier" value="{{ form.name }}">
+                            </div>
+                            {{ form.name.errors }}
+                        </div>
+                        <div class="form-group">
+                            <label for="db-type" class="col-sm-3 control-label">DB Type</label>
+                            <div class="col-sm-9">
+                                <select class="form-control" id="db-type" name="dbtype">
+                                    {% for dbtype in dbtypes %}
+                                    <option value="{{ dbtype.0 }}" {% if form.dbtype == dbtype.0 %} selected {% endif %} >{{ dbtype.1 }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            {{ form.dbtype.errors }}
+                        </div>
+                        <div class="form-group">
+                            <label for="db-host" class="col-sm-3 control-label">DB Host (IP)</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="db-host" name="server" placeholder="DB Host" value="{{ form.server }}">
+                            </div>
+                            {{ form.server.errors }}
+                        </div>
+                        <div class="form-group">
+                            <label for="db-username" class="col-sm-3 control-label">DB Username</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="db-username" name="user" placeholder="DB Username" value="{{ form.user }}">
+                            </div>
+                            {{ form.user.errors }}
+                        </div>
+                        <div class="form-group">
+                            <label for="db-password" class="col-sm-3 control-label">DB Password</label>
+                            <div class="col-sm-9">
+                                <input type="password" class="form-control" id="db-password" name="password" placeholder="DB Password" value="{{ form.password }}">
+                            </div>
+                            {{ form.password.errors }}
+                        </div>
+                        <div class="form-group">
+                            <label for="db-database" class="col-sm-3 control-label">Database/Catalog</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="db-database" name="database" placeholder="Database/Catalog" value="{{ form.database }}">
+                            </div>
+                            {{ form.port.errors }}
+                        </div>
+                        <div class="form-group">
+                            <label for="db-port" class="col-sm-3 control-label">DB Port</label>
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="db-port" name="port" placeholder="DB Port" value="{{ form.port }}">
+                            </div>
+                            {{ form.port.errors }}
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-3 col-sm-9">
+                                <button type="submit" class="btn btn-info">Save</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <ul class="list-group">
+                <li class="list-group-item active">DB Connections</li>
+                {% for conn in connections %}
+                <li  class="list-group-item">
+                    <a href="{% url 'db-config-edit' conn.id %}">
+                        {{ conn.name }}
+                    </a>
+                    <button type="button" class="pull-right btn btn-default btn-xs" onclick="location.href='{% url 'db-config-delete' conn.id %}'">
+                        <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                    </button>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+{% endblock %}
