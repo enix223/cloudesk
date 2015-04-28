@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c47fe1ad-fa1a-4df0-b04f-8cc5e3c8c6fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/cloudesk.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="D:\Source\python\cloudesk\app\templates\connection\conn-edit.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\Source\python\cloudesk\app\templates\connection\conn-list.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/cloudesk.css" afterPath="$PROJECT_DIR$/static/css/cloudesk.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/console.html" afterPath="$PROJECT_DIR$/app/templates/console.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/login.html" afterPath="$PROJECT_DIR$/app/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloudesk/settings.py" afterPath="$PROJECT_DIR$/cloudesk/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/urls.py" afterPath="$PROJECT_DIR$/app/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloudesk/urls.py" afterPath="$PROJECT_DIR$/cloudesk/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views_export.py" afterPath="$PROJECT_DIR$/app/views_export.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views_users.py" afterPath="$PROJECT_DIR$/app/views_users.py" />
+      <change type="DELETED" beforePath="D:\Source\python\cloudesk\cloudesk\settings.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/base.html" afterPath="$PROJECT_DIR$/app/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/exporter.html" afterPath="$PROJECT_DIR$/app/templates/exporter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="cloudesk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,45 +31,55 @@
       <file leaf-file-name="views_export.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views_export.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="61" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0" vertical-offset="642" max-vertical-offset="2175">
+            <state line="118" column="61" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2070">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exporter.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/exporter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="14" selection-start="2445" selection-end="2445" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
               <folding>
-                <element signature="e#18#82#0" expanded="true" />
+                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_export.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/helper/db_export.py">
+      <file leaf-file-name="development.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudesk/settings/development.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="46" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+            <state line="12" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exporter.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/exporter.html">
+      <file leaf-file-name="base.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloudesk/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="23" selection-start="437" selection-end="437" vertical-scroll-proportion="0.21459228" vertical-offset="0" max-vertical-offset="840">
+            <state line="12" column="53" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
+      <file leaf-file-name="production.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloudesk/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="94" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="12" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/urls.py">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="88" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+            <state line="48" column="118" selection-start="2174" selection-end="2174" vertical-scroll-proportion="-20.0" vertical-offset="240" max-vertical-offset="1110">
               <folding />
             </state>
           </provider>
@@ -110,13 +107,16 @@
         <option value="$PROJECT_DIR$/static/css/theme-success.css" />
         <option value="$PROJECT_DIR$/static/css/theme-primary" />
         <option value="$PROJECT_DIR$/static/css/theme-primary.css" />
-        <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/static/css/cloudesk.css" />
         <option value="$PROJECT_DIR$/app/templates/config.html" />
         <option value="$PROJECT_DIR$/app/helper/db_export.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
         <option value="$PROJECT_DIR$/app/views_export.py" />
+        <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/templates/exporter.html" />
+        <option value="$PROJECT_DIR$/cloudesk/settings/base.py" />
+        <option value="$PROJECT_DIR$/cloudesk/settings/development.py" />
+        <option value="$PROJECT_DIR$/cloudesk/settings/production.py" />
       </list>
     </option>
   </component>
@@ -180,7 +180,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="cloudesk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -194,11 +194,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="cloudesk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="helper" />
+              <option name="myItemId" value="settings" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,13 +394,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1638796" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16351502" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24954791" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22845088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22845088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22845088" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206522" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -432,120 +432,76 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/templates/exporter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="80" selection-start="1043" selection-end="1043" vertical-scroll-proportion="0.0" vertical-offset="330" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="88" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views_export.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="19" selection-start="3525" selection-end="3525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1680">
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/helper/db_export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="585">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="43" selection-start="137" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1485">
-          <folding />
-        </state>
+        <state line="6" column="43" selection-start="137" selection-end="144" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="1485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="390">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1125">
-          <folding />
-        </state>
+        <state line="67" column="0" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.0" vertical-offset="426" max-vertical-offset="1125" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/theme-primary.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1635">
-          <folding />
-        </state>
+        <state line="2" column="24" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1635" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/cloudesk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="2385">
-          <folding />
-        </state>
+        <state line="146" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="2385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/exporter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="63" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="690">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="88" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="15" column="88" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views_export.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="62" selection-start="2956" selection-end="2968" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="1650">
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="0" selection-start="5371" selection-end="5371" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1485">
-          <folding />
-        </state>
+        <state line="92" column="0" selection-start="5371" selection-end="5371" vertical-scroll-proportion="0.0" vertical-offset="1380" max-vertical-offset="1485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="16" selection-start="124" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="4" column="16" selection-start="124" selection-end="140" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1065">
-          <folding />
-        </state>
+        <state line="24" column="33" selection-start="818" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1065" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/cloudesk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="0" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0" vertical-offset="1557" max-vertical-offset="2280">
-          <folding />
-        </state>
+        <state line="144" column="0" selection-start="2280" selection-end="2280" vertical-scroll-proportion="0.0" vertical-offset="1557" max-vertical-offset="2280" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/theme-success.css">
@@ -556,38 +512,33 @@
     <entry file="file://$PROJECT_DIR$/app/templates/exporter.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="14" selection-start="1558" selection-end="1558" vertical-scroll-proportion="0.0" vertical-offset="525" max-vertical-offset="690">
-          <folding />
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="49" selection-start="827" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="13" column="49" selection-start="827" selection-end="843" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views_export.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="65" selection-start="1848" selection-end="1848" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1500">
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="69" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1380">
-          <folding />
-        </state>
+        <state line="13" column="69" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1380" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="35" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="14" column="35" selection-start="639" selection-end="639" vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="360" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views_users.py">
@@ -602,9 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="975">
-          <folding />
-        </state>
+        <state line="55" column="0" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0" vertical-offset="825" max-vertical-offset="975" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/console.html">
@@ -614,25 +563,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="117" selection-start="601" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="11" column="117" selection-start="601" selection-end="695" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views_export.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1155">
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300">
-          <folding />
-        </state>
+        <state line="10" column="35" selection-start="466" selection-end="466" vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="300" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views_users.py">
@@ -647,9 +590,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="43" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
-          <folding />
-        </state>
+        <state line="44" column="43" selection-start="1896" selection-end="1896" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/console.html">
@@ -659,19 +600,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="85" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
-          <folding />
-        </state>
+        <state line="9" column="85" selection-start="477" selection-end="477" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/logout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloudesk/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="8" selection-start="4671" selection-end="4671" vertical-scroll-proportion="0.0" vertical-offset="1785" max-vertical-offset="2550" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloudesk/urls.py">
@@ -689,11 +623,6 @@
         <state line="8" column="0" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="690" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/console.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.21459228" vertical-offset="0" max-vertical-offset="699" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4476" column="0" selection-start="89400" selection-end="92277" vertical-scroll-proportion="0.238653" vertical-offset="66977" max-vertical-offset="98580" />
@@ -706,65 +635,82 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/cloudesk.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="146" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="2385">
-          <folding />
-        </state>
+        <state line="146" column="14" selection-start="2326" selection-end="2326" vertical-scroll-proportion="0.0" vertical-offset="1656" max-vertical-offset="2385" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/theme-primary.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1635">
-          <folding />
-        </state>
+        <state line="2" column="24" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="1635" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/config.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="40" selection-start="544" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1485">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2654" selection-end="2654" vertical-scroll-proportion="0.82832617" vertical-offset="426" max-vertical-offset="1125">
-          <folding />
-        </state>
+        <state line="11" column="40" selection-start="544" selection-end="560" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="1485" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="94" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
+        <state line="4" column="94" selection-start="218" selection-end="218" vertical-scroll-proportion="0.082987554" vertical-offset="0" max-vertical-offset="723" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="88" selection-start="928" selection-end="936" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
-          <folding />
-        </state>
+        <state line="15" column="88" selection-start="928" selection-end="936" vertical-scroll-proportion="0.31120333" vertical-offset="0" max-vertical-offset="723" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/helper/db_export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="46" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
+        <state line="33" column="46" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/console.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="14" selection-start="197" selection-end="197" vertical-scroll-proportion="0.17730497" vertical-offset="0" max-vertical-offset="846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views_export.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="61" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0" vertical-offset="1227" max-vertical-offset="2175">
-          <folding>
-            <element signature="e#18#82#0" expanded="true" />
-          </folding>
+        <state line="118" column="61" selection-start="4925" selection-end="4925" vertical-scroll-proportion="0.0" vertical-offset="1200" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="118" selection-start="2174" selection-end="2174" vertical-scroll-proportion="-20.0" vertical-offset="240" max-vertical-offset="1110">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/exporter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="23" selection-start="437" selection-end="437" vertical-scroll-proportion="0.21459228" vertical-offset="0" max-vertical-offset="840">
+        <state line="51" column="14" selection-start="2445" selection-end="2445" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="330">
+          <folding>
+            <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="tag#div#0;tag#div#1;tag#div#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudesk/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="53" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2370">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudesk/settings/development.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloudesk/settings/production.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="574" selection-end="574" vertical-scroll-proportion="0.20689656" vertical-offset="0" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
